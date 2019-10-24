@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Celebrity quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="blanks">
+        <h1>Celebrity dating quiz</h1>
+
+        <p>Tell us about yourself:</p>
+
+        <form class="form-group" id="quiz">
+          <label for="age">Your age</label>
+          <input id="age" classs="form-control" type="text">
+          <label for="gender">Gender</label>
+          <select id="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+          </select>
+
+          <button type="submit" class="btn btn-primary" class="btn">Submit</button>
+        </form>
+
+        <div id="result">
+          <p>Your celebrity match name: <span id="celebrity"></span> You should probably contact him/her on Instagram or Facebook. Good Luck!</p>
+        </div>
+
+        <div class="early">
+          <h3>It is too early for you to get married!</h3>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
